@@ -4,10 +4,13 @@ Tom
 Hunter
 
 Concept: What is the facade design pattern and when we should use it?
+
 Facade pattern is a structural pattern that allows the user to interact with a complex system through a simplified interface, hiding the complexity of the system and providing a simpler abstraction. This pattern involves a single class which provides simplified methods required by the client and delegates calls to methods of existing sub-system classes.
 This pattern is a useful tool, particularly in situations where a complex system needs to be simplified for ease of use or when a simplified interface is required for a system with multiple subsystems.
 For example, there is a Phone interface and concrete classes implementing the Phone interface including Apple, Pixel, Huawei and Samsung. A facade class PhoneMaker uses the concrete classes to delegate user calls to these classes. In the driver, when a PhoneMaker object is created and its method createPhones is called. It will delegate the call to these concrete classes and create these particular phone objects. When a PhoneMaker method called getPrice() is called and  the results get printed. Behind the scenes, all the getPrice() methods in these concrete classes are called and the price of these different phones will be printed out.
+
 Code Walkthrough:
+
 In our example, there are five files: 
 RobotLeader.java
 RobotLeaderImpl.java
