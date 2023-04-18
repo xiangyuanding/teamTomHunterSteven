@@ -22,12 +22,12 @@ In the driver class, after a RobotLeader object is initialized, three new Bot ob
 When a user enters 1, callWeatherBot() will be called and then it delegates the call to the getWeather() method in the WeatherBot class and a random weather condition will be printed out. 
 When a user enters 2, callTimeBot() will be called and then it delegates the call to the time() method in the TimeBot class and the current time and date info will be printed. When a user enters 3 and enters a string, callReverseBot() will be called and then it delegates the call to the reverse() method in the ReverseBot class and a reverse string will be printed out.
 
-How to run:
-Run the Driver class.
-(After running, the following instructions will be printed out on the terminal)
-please select which robot you need to call
-1 -- Weather bot
-2 -- Time bot
+How to run:  
+Run the Driver class.  
+(After running, the following instructions will be printed out on the terminal)  
+please select which robot you need to call  
+1 -- Weather bot  
+2 -- Time bot  
 3 -- Reverse bot
 Select a number between 1 and 3(inclusive) to command a certain robot to execute an order.
 If 1 is chosen, a random weather condition will be printed out such as sunny.
