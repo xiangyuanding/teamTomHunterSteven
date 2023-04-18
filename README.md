@@ -40,7 +40,7 @@ dlrow olleh
 
 
 A UML diagram for the code:
-To view the file, click ![plot](https://github.com/xiangyuanding/teamTomHunterSteven/blob/main/robot_diagram.pdf).
+To view the file, click ![plot](https://github.com/xiangyuanding/teamTomHunterSteven/blob/main/robot_diagram.jpg).
 
 Reference:
 “Design Patterns - Facade Pattern.” Tutorials Point, https://www.tutorialspoint.com/design_pattern/facade_pattern.htm. 
